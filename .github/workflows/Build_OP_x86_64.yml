@@ -7,9 +7,10 @@
 
 name: Build_x86_64
 
-on: 
-  release:
-    types: [published]
+on:
+  repository_dispatch:
+  #release:
+  #  types: [published]
 
   #push:
   #  branches: 
